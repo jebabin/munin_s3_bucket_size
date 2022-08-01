@@ -69,6 +69,7 @@ Support invocation without bucket name (s3_<endpoint>_<region>___multi) and get 
 =head1 AUTHOR
 
 Jean-Edouard Babin
+https://github.com/jebabin/munin_s3_bucket_size
 
 =head1 LICENSE
 
