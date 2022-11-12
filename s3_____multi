@@ -152,8 +152,8 @@ def update_cache(cache_path):
 			folder_dict[folder]['size'] = object.size
 			folder_dict[folder]['object'] = 1
 
-#	with open(cache_path, 'w') as cache_file:
-#		cache_file.write(json.dumps(folder_dict))
+with open(cache_path, 'w') as cache_file:
+		cache_file.write(json.dumps(folder_dict))
 
 
 def read_cache(cache_path):
